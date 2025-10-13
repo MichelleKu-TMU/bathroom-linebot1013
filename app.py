@@ -422,4 +422,4 @@ def handle_postback(event):
 if __name__ == "__main__":
     # 確保您已經在終端機中設定了環境變數，或將您的 Line Bot 程式部署在伺服器上
     print("Line Bot 應用程式啟動...")
-    app.run(port=8000, debug=True)                                                                                             
+    app.run(port=10000, debug=True)                                                                                             
