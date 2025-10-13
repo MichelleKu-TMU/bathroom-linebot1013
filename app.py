@@ -44,7 +44,8 @@ app = Flask(__name__)
 # Google Sheet 初始化 (確保您的 JSON 文件存在於正確位置)
 gc = gspread.service_account(filename='bathline-473103-2c3250106575.json')
 sh = gc.open('bathlinebot')
-worksheet = sh.worksheet('工作表4')
+worksheet = sh.worksheet('工作表5')
+
 
 
 # --- 問答測驗資料 ---
